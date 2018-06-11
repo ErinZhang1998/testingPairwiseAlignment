@@ -1,0 +1,2 @@
+d9ccbc1c17d8f4402e53d4d9734bb977  hg38-chr17.felCat8-chrE1.syn.net.gz
+b2596f714c5345f4601b38b42f537c52  hg38-chr17.felCat8-chrE1.synNet.maf.gz

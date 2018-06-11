@@ -1,0 +1,3 @@
+#LOOP
+./chain.csh $(file1) chain/$(file1).chain
+#ENDLOOP

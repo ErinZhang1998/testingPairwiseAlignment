@@ -1,0 +1,3 @@
+#LOOP
+./cat.csh $(path1) ../pslParts/$(file1).psl.gz
+#ENDLOOP

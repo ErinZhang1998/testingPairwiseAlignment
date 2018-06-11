@@ -1,0 +1,3 @@
+#LOOP
+/home/xiaoyuz1/data/scripts/blastz-run-ucsc -outFormat psl $(path1) $(path2) ../DEF ../psl/$(file1)/$(file1)_$(file2).psl 
+#ENDLOOP

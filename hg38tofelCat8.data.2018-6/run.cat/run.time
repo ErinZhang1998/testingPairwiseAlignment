@@ -1,0 +1,11 @@
+jobListTest!!!!!!!!!!!!!!!!!!!!!!paraJobsFile DEBUG PRINT: ./.para/.para.jobs.jobListTest 
+
+!!!!!!!!!!!!!!!!!!!!!!paraStatusFile DEBUG PRINT: ./.para/.para.status.jobListTest 
+
+Waiting to get ./lockFile.jobListTest   ..... [Takes too long? Did a previous para run died? If so, open a new terminal and   rm -f ./lockFile.jobListTest ] .....  got it
+Waiting to get ./lockFile.jobListTest   ..... [Takes too long? Did a previous para run died? If so, open a new terminal and   rm -f ./lockFile.jobListTest ] .....  got it
+RUN: 0      	PEND: 0      	DONE: 105    	FAILED: 0      
+Time in finished jobs:         1159 sec	    19.3 min	   0.3 h	  0.0 days
+Average job time:                11 sec	     0.2 min	   0.0 h	  0.0 days
+Longest finished job:            14 sec	     0.2 min	   0.0 h	  0.0 days		(jobID 11089316)
+*** ALL JOBS SUCCEEDED ***

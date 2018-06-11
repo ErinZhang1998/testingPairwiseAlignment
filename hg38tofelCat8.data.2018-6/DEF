@@ -1,0 +1,34 @@
+currentDir="/home/xiaoyuz1/data/genomes"
+BLASTZ_T=1
+BLASTZ_O=400
+BLASTZ_E=30
+BLASTZ_M=254
+BLASTZ_K=3000
+BLASTZ_Y=9400
+BLASTZ_Q=/home/xiaoyuz1/data/genomes/human_cat.v2.q
+# default BLASTZ_Q score matrix:
+#       A     C     G     T
+# A    91  -114   -31  -123
+# C  -114   100  -125   -31
+# G   -31  -125   100  -114
+# T  -123   -31  -114    91
+-chainMinScore=3000 -chainLinearGap=medium
+
+
+#TARGET: hg38
+SEQ1_DIR=/home/xiaoyuz1/data/genomes/hg38/hg38-chr17.2bit
+SEQ1_LEN=/home/xiaoyuz1/data/genomes/hg38/hg38-chr17.chrom.sizes
+SEQ1_CHUNK=800000
+SEQ1_LIMIT=10
+SEQ1_LAP=1000
+
+# QUERY: felCat8
+SEQ2_DIR=/home/xiaoyuz1/data/genomes/felCat8/felCat8-chrE1.2bit
+SEQ2_LEN=/home/xiaoyuz1/data/genomes/felCat8/felCat8-chrE1.chrom.sizes
+SEQ2_CHUNK=400000
+SEQ2_LIMIT=300
+SEQ2_LAP=0
+
+BASE=/home/xiaoyuz1/data/genomes/hg38tofelCat8.data.2018-6
+TMPDIR=/home/xiaoyuz1/scratch/tmp
+PATH=/home/xiaoyuz1/data/scripts
